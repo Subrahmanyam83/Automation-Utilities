@@ -1,0 +1,39 @@
+TREE
+1) Root
+2) Children,Parent
+3) Leaf - 0 children
+4) Siblings - same parent
+5) cousins - Nodes are at same level but parents are different.
+6) uncle - my parent's parent's second child.
+7) Ancestor - parent, grand-parent and so on till root are all the ancestors.
+8) Descendant - Opposite of Ancestor
+9) Edges - no of links
+10) Nodes - Number of actual data.
+
+9) Depth  - No of edges from the root.
+10) Height - No of edges from that node till the longest leaf.
+11) Level: Root is at level 0.
+
+BINARY TREE : Each node can have at most 2 children.
+
+Applications:
+1) File structuring
+2) Insertion deletion and search
+3) Trie Tree for dictionary , spell checking
+4) Network Routing algorithms.
+
+STRICT OR PERFECT BINARY TREE: Tree with either 0 or 2 children and not 1.
+
+COMPLETE BINARY TREE : All Nodes except the leaf nodes must have two children and all the leaf nodes should
+be as left as possible.
+
+BALANCED TREE : Difference in the Heights of left and right subtree should not be more than 1 for any node.
+
+BINARY SEARCH TREE: A binary tree, for a node left subtree node's value should be less than the node's value and right subtree node's value should be greater than node's value.
+A BST is analogous to sorted array where we do insertion,removal and searching using binary search where the time complexity is BIG O of (n).
+
+
+
+
+
+
